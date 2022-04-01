@@ -29,8 +29,8 @@ json_folder = f'/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/json_{source_num}s
 output_folder = f'/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/mixed_{source_num}sources_audio_{train_test_val_flag}'
 data_frame_path = f"/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/sim_{source_num}sources_{train_test_val_flag}_data" # 每帧的特征和标签
 
-# train_test_val_flag = '50rooms_4W_A'
-# json_folder = f'/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/json_4sources_40000_50roomsA'
+# train_test_val_flag = '50rooms_2W_A'
+# json_folder = f'/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/json_4sources_20000_50roomsA'
 # output_folder = f'/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/mixed_audio_{train_test_val_flag}'
 # data_frame_path = f"/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/sim_{train_test_val_flag}_data" # 每帧的特征和标签
 
