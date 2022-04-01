@@ -19,7 +19,7 @@ _FREQ_MIN = 100
 SEG_LEN = 8192
 SEG_HOP = 4096
 
-version = 12
+version = 5
 source_num = 3
 single_source_gt_folder = '/Work21/2021/fuyanjie/exp_data/sim_audio_vctk/vctk_gt_frame'
 
