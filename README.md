@@ -1,5 +1,19 @@
 # VCTK-SIM
 
+## Cite us
+Please cite the following paper if you use our dataset:
+1. Fu, Y., Ge, M., Yin, H., Qian, X., Wang, L., Zhang, G., Dang, J. (2022) Iterative Sound Source Localization for Unknown Number of Sources. Proc. Interspeech 2022, 896-900, doi: 10.21437/Interspeech.2022-10525
+```bibtex
+@inproceedings{fu22c_interspeech,
+  author={Yanjie Fu and Meng Ge and Haoran Yin and Xinyuan Qian and Longbiao Wang and Gaoyan Zhang and Jianwu Dang},
+  title={{Iterative Sound Source Localization for Unknown Number of Sources}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={896--900},
+  doi={10.21437/Interspeech.2022-10525}
+}
+```
+
 ## Usage
 
 ### 1. Download the simulated dataset
