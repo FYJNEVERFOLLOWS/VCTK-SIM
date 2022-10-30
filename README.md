@@ -48,14 +48,17 @@ VCTK_3mix and VCTK_4mix include samples containing 0,1,2,3 and 0,1,2,3,4, respec
 │   └── json_3/4sources_2000_test_5 (dev set)
 ```
 
-### 2. VAD for VCTK at segment-level (8192 samples)
+### 2. VAD for VCTK at segment-level (8192 samples for each segment)
 Directly download `vctk_gt_frame` folder or run the scripts below:
 ```bash
 pip install speechbrain
 cd speechbrain_vad
-python prep_for_vctk.py # convert 48kHz VCTK to 16kHz
-python sb_vad.py # vad using speechbrain
-python label_vctk_at_seg_level.py # generate speech-nonspeech label for VCTK at segment-level
+# convert 48kHz VCTK to 16kHz
+python prep_for_vctk.py
+# vad using speechbrain 
+python sb_vad.py 
+# generate speech-nonspeech label for VCTK at segment-level
+python label_vctk_at_seg_level.py
 ```
 
 
