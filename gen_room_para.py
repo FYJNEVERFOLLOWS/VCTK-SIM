@@ -135,7 +135,7 @@ def gen_mulchannel_data_random(wave_file_path, room_para, folder, audio_type, fs
     target_angle = np.arctan2(source_location[1] - room_width / 2, source_location[0] - room_length / 2)
 
     # 将弧度转为度
-    angle_degree = int(target_angle * 180.0 / np.pi) + 180
+    angle_degree = int(round(target_angle * 180.0 / np.pi)) + 180
 
     # 生成多通道数据
     c = 345
